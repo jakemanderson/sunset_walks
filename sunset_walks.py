@@ -16,7 +16,7 @@ def custom_strftime(format, t):
 
 
 latitude = pi.home_latitude
-longitude = pi.home_longitudel
+longitude = pi.home_longitude
 
 sun = Sun(latitude, longitude)
 
@@ -24,5 +24,5 @@ sun = Sun(latitude, longitude)
 today = date.today()
 sunset_time = sun.get_local_sunset_time(today)
 walk_departure_time = sunset_time - timedelta(hours=1, minutes=15)
-print("Hi Sweetie! \n\n Today, {}, the sun sets at {}, so we should leave to go on your walk at {}. \n\n - JakeBot :)".
+print("Hi Sweetie! \n\n Today, {}, the sun sets at {}, so we should leave to go on our walk at {}. \n\n - JakeBot :)".
       format(custom_strftime('%B {S}, %Y', today), sunset_time.strftime('%I:%M %p'), walk_departure_time.strftime('%I:%M %p')))
