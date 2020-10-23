@@ -36,3 +36,13 @@ DOW=$(date +%A)
 cat daily_log.log | mutt -s "${DOW} Sunset Walk Reminder" wife_email@gmail.com
 cat daily_log.log | mutt -s "${DOW} Sunset Walk Reminder" wife_phone_number@vtext.com
 </code></pre>
+
+## Results:
+
+#### Successfully sent email:
+
+![Email](/images/jakebot_email.jpeg)
+
+#### Successfully sent text message:
+
+![Text Message](/images/jakebot_text.jpeg)
