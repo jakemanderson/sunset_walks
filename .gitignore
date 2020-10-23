@@ -1,4 +1,4 @@
 personal_info.py
 sunset_walk.sh
 daily_log.log
-__pycache__
+/__pycache__/*
