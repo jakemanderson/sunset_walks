@@ -26,7 +26,7 @@ The following bash script runs every morning according to the follwing files:
 
 **file: crontab**
 <pre><code>
-0 9 \* \* \* cd /path/to/file && ./sunset_walk.sh
+0 9 * * * cd /path/to/file && ./sunset_walk.sh
 </code></pre>
 
 **file: sunset_walk.sh**
